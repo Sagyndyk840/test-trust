@@ -2,17 +2,12 @@
 import BaseInput from '@/shared/ui/UI/BaseInput/BaseInput.vue'
 import BaseButton from '@/shared/ui/UI/BaseButton/BaseButton.vue'
 import type { IHouseFilters } from '@/shared/types/house.ts'
+const emit = defineEmits(['reset'])
 
 const model = defineModel<IHouseFilters>({ required: true })
 
 const resetFilters = () => {
-  model.value = {
-    minArea: null,
-    maxArea: null,
-    minRooms: null,
-    maxRooms: null,
-    address: '',
-  }
+  emit('reset')
 }
 </script>
 

@@ -19,17 +19,29 @@ export function useHouseFilter() {
 
   const filteredHouses = computed(() => {
     return houses.value.filter(house => {
-      if (filters.value.minArea && house.area < filters.value.minArea) return false
-      if (filters.value.maxArea && house.area > filters.value.maxArea) return false
+      const { minArea, maxArea, minRooms, maxRooms, address } = filters.value
 
-      if (filters.value.minRooms && house.rooms < filters.value.minRooms) return false
-      if (filters.value.maxRooms && house.rooms > filters.value.maxRooms) return false
+      if (minArea && house.area < minArea) return false
+      if (maxArea && house.area > maxArea) return false
 
-      if (filters.value.address && !house.address.toLowerCase().includes(filters.value.address.toLowerCase())) return false
+      if (minRooms && house.rooms < minRooms) return false
+      if (maxRooms && house.rooms > maxRooms) return false
+
+      if (address && !house.address.toLowerCase().includes(address.toLowerCase())) return false
 
       return true
     })
   })
+
+  const resetFilters = () => {
+    filters.value = {
+      minArea: null,
+      maxArea: null,
+      minRooms: null,
+      maxRooms: null,
+      address: '',
+    }
+  }
 
   const loadHouses = async () => {
     isLoading.value = true
@@ -51,5 +63,6 @@ export function useHouseFilter() {
     filteredHouses,
     loadHouses,
     isLoading,
+    resetFilters,
   }
 }
