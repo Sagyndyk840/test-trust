@@ -2,8 +2,8 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/Sagyndyk840/test-trust.git
-   cd test-simourg
+   git clone https://github.com/Sagyndyk840/test-trust.git 
+   cd test-trust
 
 2. Установите зависимости
    ```bash
