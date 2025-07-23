@@ -1,0 +1,11 @@
+.loader {
+  display: inline-block;
+  border: 3px solid $color-bg-secondary;
+  border-radius: 50%;
+  border-top-color: $color-primary;
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}

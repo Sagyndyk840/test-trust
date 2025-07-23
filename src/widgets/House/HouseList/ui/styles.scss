@@ -1,0 +1,36 @@
+.house-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  margin-top: 24px;
+
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.empty-message {
+  margin-top: 20px;
+  color: $color-muted;
+  text-align: center;
+
+  .empty-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: $color-text;
+  }
+
+  .empty-text {
+    font-size: 1rem;
+  }
+}
+
+.loader {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}

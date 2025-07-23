@@ -1,0 +1,92 @@
+{
+  "houses": [
+    {
+      "id": 1,
+      "address": "ул. Сауран, 45",
+      "area": 65,
+      "rooms": 2,
+      "price": 45000,
+      "image": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 2,
+      "address": "пр. Кабанбай батыра, 12",
+      "area": 45,
+      "rooms": 1,
+      "price": 35000,
+      "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 3,
+      "address": "ул. Кенесары, 78",
+      "area": 120,
+      "rooms": 4,
+      "price": 80000,
+      "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 4,
+      "address": "ул. Толе би, 34",
+      "area": 55,
+      "rooms": 2,
+      "price": 40000,
+      "image": "https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 5,
+      "address": "пр. Абылай хана, 89",
+      "area": 90,
+      "rooms": 3,
+      "price": 60000,
+      "image": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 6,
+      "address": "ул. Гоголя, 15",
+      "area": 150,
+      "rooms": 5,
+      "price": 95000,
+      "image": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 7,
+      "address": "ул. Желтоксан, 23",
+      "area": 48,
+      "rooms": 1,
+      "price": 32000,
+      "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 8,
+      "address": "пр. Аль-Фараби, 77",
+      "area": 110,
+      "rooms": 3,
+      "price": 75000,
+      "image": "https://images.unsplash.com/photo-1505873242700-f289a29e1e0f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 9,
+      "address": "ул. Байтурсынова, 56",
+      "area": 180,
+      "rooms": 6,
+      "price": 120000,
+      "image": "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 10,
+      "address": "пр. Райымбека, 143",
+      "area": 85,
+      "rooms": 3,
+      "price": 58000,
+      "image": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 11,
+      "address": "ул. Ауэзова, 34А",
+      "area": 200,
+      "rooms": 7,
+      "price": 150000,
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    }
+  ]
+}

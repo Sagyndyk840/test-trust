@@ -1,0 +1,41 @@
+.house-page {
+  padding: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: $color-bg;
+
+  &__header {
+    margin-bottom: 24px;
+    text-align: center;
+
+    h1 {
+      color: $color-primary;
+      margin-bottom: 8px;
+    }
+
+    p {
+      color: $color-muted;
+    }
+  }
+
+  &__content {
+    display: flex;
+    gap: 24px;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+
+  &__filters {
+    flex: 0 0 300px;
+
+    @media (max-width: 768px) {
+      flex: 1;
+    }
+  }
+
+  &__results {
+    flex: 1;
+  }
+}
